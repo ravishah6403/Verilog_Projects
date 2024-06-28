@@ -1,6 +1,6 @@
 // 1011 Sequence Detector Non-Overlapping
 
-module seq_detect(
+module seq_detect_non_ov(
   input clk,
   input inbits,
   input reset,

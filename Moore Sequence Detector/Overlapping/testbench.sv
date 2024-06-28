@@ -49,7 +49,7 @@ module testbench;
   
   initial #500 $finish;
   
-  seq_detect seq_detect_inst(.clk(clk_tb), .inbits(inbits_tb), .detect(detect_tb), .reset(reset_tb));
+  seq_detect_ov seq_detect_inst(.clk(clk_tb), .inbits(inbits_tb), .detect(detect_tb), .reset(reset_tb));
   
 endmodule
   
